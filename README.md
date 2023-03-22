@@ -1,4 +1,4 @@
-# Header - README Template
+# Building a model to predict housing prices
 
 ![Github Logo](housesbanner.png "Github logo - markdown")
 
