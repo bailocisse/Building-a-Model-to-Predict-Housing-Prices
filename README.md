@@ -27,17 +27,20 @@ We're going to operate on this data using python data analytics and data science
 >## Tools
 Include a list of the tools used in the project:
 1. Jupyter Notebook
-2. MySQL
-3. Matplotlib
+2. Numpy
+3. Pandas
+4. Matplotlib
+5. Seaborn
+6. Sklearn
+7. Scipy
 
 <a class="anchor" id="installation_instructions"></a>
 >## Installation instructions
-Include the installation instructions here
+Instructions are described in the notebook
 
 <a class="anchor" id="contact"></a>
 >## Contact Information
-[BillGates](https://www.linkedin.com/in/williamhgates/detail/recent-activity/posts/)
-[@BillGates](https://twitter.com/BillGates) - Twitter
+[MamadouBailoCisse](https://www.linkedin.com/in/mamadou-ba%C3%AFlo-cisse-92548090/)
 
 >## Table of Contents Example
 * [About the Project](#about_the_project)
