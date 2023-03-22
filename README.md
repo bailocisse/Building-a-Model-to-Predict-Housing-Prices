@@ -4,14 +4,24 @@
 
 <a class="anchor" id="about_the_project"></a>
 >## About the Project
-In this project, we built some machine learning models to predict house prices.
-After analyzing the dataset using data description file along with some exploration steps, we selected three sets of features based on their correlation with the SalePrice (dependent variable). We then built three models (model10, model15, model20) against those three sets of features (**10, 15, 20 most correlated features**) and demonstrated that the model model20 was the one that performed the best on the training data regarding **the three metrics $R^2$ (0.88), MAE - Mean Absolute Error - (18 356.27) ,and MSE - Mean Square Error (600 490 969.09)**. 
+The goal of this data science project is to build an efficient **machine learning model** to predict house prices. To achieve this, our supervised model (the price is the label) will learn from a training data set in which we'll select the most relevant features that best explain the house prices.
 
-However, we were not performing well on the test dataset. We then decided to perform **further transformations** by including categorical (ordinal and nominal) variables to build a new model "NewModel". We selected the best correlated categorical features by using **most-frequent imputation** (to deal with null values) and **ANOVA** (ANalysis Of VAriance) technique.
+This notebook shows the different steps and code to achieve our goal.
 
-By doing so, we improved :
-+ $R^2$ metric from **0.88** (model20) to **0.95** (NewModel) on the train dataset.
-+ $R^2$ metric from **0.74** to **0.78** on the test dataset.
++ In the first part of the notebook :
+    - We will make some **data explorations** along with **data cleaning** by dealing with duplicate values (if there are any), null values... 
+    - Then we will use the **correlation technique** (Pearson correlation matrix) to select the features that are best correlated with the dependant variable (house price)
+    - Then we will **build our model** and make some accuracy analysis on three different set of variables.
+    - Finally, we are going to verify our model against the **test data**.
++ In the second part of the notebook, we will make further transformations to try perform better on the test dataset :
+    - First, we will apply the same transformations as in the first part of the notebook
+    - Then, we are going to treat categorical columns with some imputation and the use of ANOVA technique.
+    - Finally, we will compare the performance of this new model to the model built in the first part of the notebook on the test data
+
+In a general context, one can use this kind of model in real world to estimate a house price. It can even be useful for real estate agencies. 
+
+As I mentioned above, the goal is to build an efficient machine learning linear model to predict house prices. In the dataset, we have 82 variables (including Unnamed: 0 and Id columns) that describe different aspects of a hundred houses including their prices. 
+We're going to operate on this data using python data analytics and data science librairies.
 
 <a class="anchor" id="tools"></a>
 >## Tools
