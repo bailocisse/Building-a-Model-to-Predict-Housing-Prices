@@ -4,6 +4,7 @@
 
 <a class="anchor" id="about_the_project"></a>
 >## About the Project
+
 The goal of this data science project is to build an efficient **machine learning model** to predict house prices. To achieve this, our supervised model (the price is the label) will learn from a training data set in which we'll select the most relevant features that best explain the house prices.
 
 This notebook shows the different steps and code to achieve our goal.
@@ -25,7 +26,7 @@ We're going to operate on this data using python data analytics and data science
 
 <a class="anchor" id="tools"></a>
 >## Tools
-Include a list of the tools used in the project:
+
 1. Jupyter Notebook
 2. Numpy
 3. Pandas
@@ -36,11 +37,13 @@ Include a list of the tools used in the project:
 
 <a class="anchor" id="installation_instructions"></a>
 >## Installation instructions
-Instructions are described in the notebook
+
+The code is described in the notebook. You can also find results in the presentation slide deck
 
 <a class="anchor" id="contact"></a>
 >## Contact Information
-[MamadouBailoCisse](https://www.linkedin.com/in/mamadou-ba%C3%AFlo-cisse-92548090/)
+
+[Mamadou Bailo CISSE](https://www.linkedin.com/in/mamadou-ba%C3%AFlo-cisse-92548090/)
 
 >## Table of Contents Example
 * [About the Project](#about_the_project)
