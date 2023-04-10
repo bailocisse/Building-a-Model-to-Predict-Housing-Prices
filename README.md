@@ -38,7 +38,7 @@ We're going to operate on this data using python data analytics and data science
 <a class="anchor" id="installation_instructions"></a>
 >## Installation instructions
 
-Instructions are described in the notebook
+The code is described in the notebook. You can also find results in the presentation slide deck
 
 <a class="anchor" id="contact"></a>
 >## Contact Information
