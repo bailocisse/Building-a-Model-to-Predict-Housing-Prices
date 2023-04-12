@@ -1,6 +1,6 @@
 # Building a model to predict housing prices
 
-![Github Logo](housesbanner.jpeg "Github logo - markdown")
+![Github Logo](housesbanner.jpg "Github logo - markdown")
 
 <a class="anchor" id="about_the_project"></a>
 >## About the Project
